@@ -6,4 +6,6 @@ language: python
 install:
  - pip install pytest
 
-script: pytest
+script: 
+ - pytest
+ - unit_test.py
