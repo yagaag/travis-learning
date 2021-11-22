@@ -10,6 +10,4 @@ def calculate(v1, v2, op):
 	else:
 		return v1
 
-a = 6
-b = 7
-print(calculate(a, b, '-')
+print(calculate(5, 6, '-'))
