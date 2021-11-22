@@ -8,7 +8,7 @@ class SimpleTest(unittest.TestCase):
         #     return True
         # else:
         #     return False
-        self.assertTrue(True)
+        assert calc.calculate(5, 6, '-') == -1
   
 if __name__ == '__main__':
     unittest.main()
