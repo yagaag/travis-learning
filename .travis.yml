@@ -3,5 +3,7 @@ arch:
 
 language: python
 
-script:
-  - unit_test.py
+install:
+ - pip install pytest
+
+script: pytest
